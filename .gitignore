@@ -1,15 +1,33 @@
+# Veri ve modeller
 data/
+saved_models/
+participants.csv
+predictions.csv
+Phenotypic*.csv
+
+# Python sanal ortamları
 .venv/
 venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-saved_models/
+
+# Model ve dizi dosyaları
 *.npy
 *.npz
 *.keras
 *.h5
 *.pt
+*.joblib
+*.1D
+
+# Görüntüleme verileri
 *.nii
 *.nii.gz
+
+# Arşivler
+*.zip
+
+# Çevre değişkenleri
 .env
+.env.*
