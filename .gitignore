@@ -1,0 +1,15 @@
+data/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+saved_models/
+*.npy
+*.npz
+*.keras
+*.h5
+*.pt
+*.nii
+*.nii.gz
+.env
