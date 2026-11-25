@@ -7,7 +7,7 @@ dataset = fetch_abide_pcp(
     global_signal_regression=False,
     derivatives=["rois_cc200"],
     quality_checked=True,
-    n_subjects=10
+    n_subjects=None
 )
 
 print("\nVeri indirme tamamlandı.")
